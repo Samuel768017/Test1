@@ -1,0 +1,46 @@
+
+#calc-contain
+{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius:0px;
+  margin: 10px auto ;
+  padding: 0px;
+}
+
+input[type=button]
+ {
+  background: lightgrey;
+  width: 21.5%;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0px;
+  margin-left: 6px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+}
+
+input[type=button]:active 
+{
+  background-color:black;
+  transform: translateY(1px);
+}
+
+input[type=button]:hover 
+{
+  background-color:black;
+  color: white;
+}
+
+input[type = text]
+ {
+  position: relative;
+  display: inline-block;
+  width: 96%;
+  margin: 5px ;
+  font-size: 20px;
+  padding: 10px;
+  box-shadow: 1px 0px 10px white inset;
+}
